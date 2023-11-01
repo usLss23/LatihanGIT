@@ -9,5 +9,24 @@
     <h1>Program Latihan Git di Camp404</h1>
     <p>Daftarkan dirimu disini!</p>
     <input type="button">Daftar</input>
+    <div id="program" style="visibility: hidden;">
+        <table border="1">
+            <tr>
+                <td>Program</td>
+                <td>Waktu</td>
+                <td>Daftar Program</td>
+            </tr>
+            <tr>
+                <td>GIT Personal Project</td>
+                <td>20 Desember 2023</td>
+                <td><button>Daftar</button></td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        function cekProgram() {
+            document.getElementById("program").style.visibility = "visible"
+        }
+    </script>
 </body>
 </html>
